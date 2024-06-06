@@ -27,7 +27,7 @@ pipeline
         {
             when
             {
-                equals(actual: diaActual, expected: 1)
+                equals(actual: diaActual, expected: 4)
             }
             
             steps 
@@ -68,7 +68,7 @@ pipeline
         {
             when
             {
-                equals(actual: diaActual, expected: 2)
+                equals(actual: diaActual, expected: 4)
             }
             
             steps 
@@ -82,7 +82,7 @@ pipeline
         {
             when
             {
-                equals(actual: diaActual, expected: 3)
+                equals(actual: diaActual, expected: 4)
             }
             
             steps 
@@ -142,7 +142,7 @@ pipeline
         {
             when
             {
-                equals(actual: diaActual, expected: 5)
+                equals(actual: diaActual, expected: 4)
             }
             
             steps 
